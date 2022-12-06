@@ -5,12 +5,12 @@ function identifyPrime(number) {
             counter++;
         }
     }
+
     if(counter==2){
-        return true;
+    return true;
     }
         return false;
-    
-}
+    }
 let bag = checkprime(13);
 if(bag==true){
 console.log("prime");
