@@ -5,9 +5,15 @@ function identifyPrime(num) {
             count++;
         }
     }
-    if(count==0){
-        console.log("Yes")
-    }else{
-        console.log("No")
+    if(count==2){
+        return true;
     }
+        return false;
+    
+}
+let ans= checkprime(13);
+if(ans==true){
+console.log("prime");
+}else{
+console.log("not prime");
 }
