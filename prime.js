@@ -1,19 +1,19 @@
-function identifyPrime(num) {
-    let count=0;
-    for(let i=1;i<=num;i++){
-        if(num%i==0){
-            count++;
+function identifyPrime(number) {
+    let counter=0;
+    for(let i=1;i<=number;i++){
+        if(number%i==0){
+            counter++;
         }
     }
-    if(count==2){
-        return true;
+
+    if(counter==2){
+    return true;
     }
         return false;
-    
-}
-let ans= checkprime(13);
-if(ans==true){
+    }
+let bag = checkprime(13);
+if(bag==true){
 console.log("prime");
 }else{
-console.log("not prime");
+console.log("not prime");
 }
